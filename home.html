@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+</head>
+<link rel="stylesheet" href = "styles.css"/>
+</head>
+<body>
+    <div class="container">
+        <img src="sun.png" class="sun-icon">
+        <h1 class = "header">Weather App</h1>
+        <form class = "weather-form" id="weather-form">
+            <label for="zipcode">Search for a city:</label>
+            <input type="text" id="zipcode" name="zipcode" placeholder="e.g. 19104 or Philadelphia">
+            <button type="submit">Search</button>
+        </form>
+        <div class="results-container">
+            <div class = "weather-results" id="weather-results"></div>
+            <div class = "weather-results" id="more-results"></div>
+        </div>
+    </div>
+</body>
+<script src="home.js"></script>
+</html>
