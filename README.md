@@ -1,6 +1,6 @@
 # Weather-App
  
-I created a weather application using the openweathermap API.
+A simple weather application using the openweathermap API.
 It lets you search via a zipcode or city name.
 The search outputs the current temperature, the weather description, an icon for the weather description.
 It also outputs what the weather feels like, wind speed, as well as wind direction using cardinal directions.
